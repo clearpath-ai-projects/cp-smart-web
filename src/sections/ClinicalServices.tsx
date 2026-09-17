@@ -26,7 +26,7 @@ const SERVICES = [
       'Planning performed and/or supervised by dental practitioners',
       'Treatment plans prepared for the treating dentist’s review',
     ],
-    photo: '/images/photo-service-planning.jpg',
+    photo: '/images/photo-service-planning.png',
     photoAlt: 'Clinician examining a 3D dental mesh model on a workstation monitor at a clear aligner planning station',
   },
   {
