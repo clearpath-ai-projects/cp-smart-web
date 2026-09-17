@@ -7,10 +7,10 @@ const SERVICES = [
     icon: FileSearch,
     title: 'Orthodontic Diagnostic Assessment',
     description:
-      'Clinical assessment of patient records, scans, photographs, radiographs, dental conditions and orthodontic requirements.',
+      'Clinical assessment of patient records, scans, photographs, radiographs, dental conditions & orthodontic requirements.',
     points: [
-      'Review of submitted clinical photographs and radiographs',
-      'Assessment of dental scans and orthodontic requirements',
+      'Review of submitted clinical photographs & radiographs',
+      'Assessment of dental scans & orthodontic requirements',
       'Identification of clinically relevant findings for the treating dentist',
     ],
     photo: '/images/photo-service-assessment.jpg',
@@ -20,10 +20,10 @@ const SERVICES = [
     icon: ClipboardList,
     title: 'Clinical Treatment Planning',
     description:
-      'Patient-specific orthodontic treatment planning performed and/or supervised by qualified dental practitioners.',
+      'Patient-specific orthodontic treatment planning performed & supervised by qualified dental practitioners.',
     points: [
-      'Patient-specific treatment strategy development',
-      'Planning performed and/or supervised by dental practitioners',
+      'Patient-Specific treatment strategy development',
+      'Planning performed & supervised by dental practitioners',
       'Treatment plans prepared for the treating dentist’s review',
     ],
     photo: '/images/photo-service-planning.png',
@@ -35,8 +35,8 @@ const SERVICES = [
     description:
       'Interactive visualization of proposed orthodontic tooth movements to assist the treating dentist in reviewing the proposed treatment.',
     points: [
-      'Digital visualization of proposed tooth movement',
-      'Stage-by-stage treatment progression view',
+      'Digital Visualization of proposed tooth movement',
+      'Stage-by-Stage treatment progression view',
       'Supports clinical review, not a standalone diagnosis tool',
     ],
     photo: '/images/photo-service-visualization.jpg',
@@ -46,14 +46,14 @@ const SERVICES = [
     icon: MessageSquareText,
     title: 'Clinical Review & Plan Refinement',
     description:
-      'Dentists can review proposed plans and request clinically appropriate modifications before giving final approval.',
+      'Dentists can review proposed plans & request clinically appropriate modifications before giving final approval.',
     points: [
-      'Structured clinical feedback and modification requests',
-      'Revision history maintained through the CP Smart platform',
+      'Structured clinical feedback & modification requests',
+      'Revision history maintained through the CP Smart Platform',
       'Final approval remains with the treating dentist',
     ],
     photo: '/images/photo-service-review.jpg',
-    photoAlt: 'Tablet displaying clinical plan refinement interface comparing Plan A and Plan B options',
+    photoAlt: 'Tablet displaying clinical plan refinement interface comparing Plan A & Plan B options',
   },
 ]
 
@@ -62,9 +62,9 @@ export default function ClinicalServices() {
     <section id="clinical-services" className="scroll-mt-[72px] bg-surface-soft pt-10 sm:pt-14 pb-20 sm:pb-24">
       <div className="container-page">
         <SectionHeader
-          eyebrow="Clinical Services"
+          
           title="Clinical Services"
-          subtitle="Clinical and digital support designed around the orthodontic workflow &mdash; from diagnostic assessment through to approved treatment planning."
+          subtitle="Clinical & Digital support designed around the orthodontic workflow &mdash; from diagnostic assessment to approved treatment planning."
           align="center"
           className="mb-16"
         />

@@ -27,7 +27,7 @@ export default function Contact() {
     <section id="contact" className="section scroll-mt-[72px] bg-surface-soft">
       <div className="container-page">
         <SectionHeader
-          eyebrow="Contact"
+          
           title="Contact Us"
           subtitle="For dental professionals seeking clinical diagnostic and treatment-planning support."
           align="center"
@@ -53,8 +53,7 @@ export default function Contact() {
                 </p>
               </div>
               <p className="px-1 text-[12.5px] leading-relaxed text-ink/35">
-                Contact details for CP Smart Diagnostic Services (Pvt.)
-                Ltd. will appear here once available. 
+             
               </p>
             </RevealOnScroll>
           </div>

@@ -53,7 +53,7 @@ export default function ForDentists() {
               <p className="mt-4 text-[16px] leading-relaxed text-ink/60">
                 Dentists work with CP Smart by submitting cases, reviewing
                 clinical assessments, examining proposed treatment stages
-                and collaborating with the CP Smart clinical team through
+                and collaborating with the CP Smart Clinical Team through
                 a structured digital workflow.
               </p>
             </RevealOnScroll>

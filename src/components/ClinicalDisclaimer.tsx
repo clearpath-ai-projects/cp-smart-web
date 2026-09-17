@@ -13,7 +13,7 @@ interface ClinicalDisclaimerProps {
  */
 export default function ClinicalDisclaimer({
   title = 'Clinical Responsibility',
-  text = 'CP Smart Diagnostic Services provides professional diagnostic and treatment-planning support to dental practitioners. Final diagnosis, prescription, treatment decisions and patient care remain the responsibility of the treating dental practitioner.',
+  text = 'CP Smart Diagnostic Services provides professional diagnostic & treatment-planning support to dental practitioners. Final diagnosis, prescription, treatment decisions & patient care remain the responsibility of the treating dental practitioner.',
   compact = false,
 }: ClinicalDisclaimerProps) {
   return (

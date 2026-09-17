@@ -21,18 +21,18 @@ export default function About() {
           <RevealOnScroll className="flex flex-col justify-between">
             <div>
               <SectionHeader
-                eyebrow="About Us"
+                
                 title="About CP Smart"
-                subtitle="Combining dental expertise with digital technology to support dentists in orthodontic diagnosis and treatment planning."
+                subtitle="Combining dental expertise with digital technology to support dentists in orthodontic diagnosis & treatment planning."
                 className="mb-6"
               />
 
               <p className="text-[17px] leading-relaxed text-ink/70">
                 CP Smart Diagnostic Services combines dental expertise with
                 digital technology to support dentists in orthodontic
-                diagnosis and treatment planning. Our clinical team works
+                diagnosis & treatment planning. Our clinical team works
                 with dental professionals to assess cases, develop
-                patient-specific treatment strategies and provide clear
+                patient-specific treatment strategies & provide clear
                 digital visualization of proposed orthodontic treatment.
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function About() {
                   <Users2 size={20} strokeWidth={1.75} />
                 </div>
                 <span className="text-sm font-semibold text-gray-900 leading-snug">
-                  Qualified dental practitioners
+                  Qualified Dental Practitioners
                 </span>
               </div>
 
@@ -52,7 +52,7 @@ export default function About() {
                   <ScanEye size={20} strokeWidth={1.75} />
                 </div>
                 <span className="text-sm font-semibold text-gray-900 leading-snug">
-                  Digital treatment visualization
+                  Digital Treatment Visualization
                 </span>
               </div>
             </div>
@@ -77,8 +77,8 @@ export default function About() {
         <div className="mt-20 sm:mt-24">
           <SectionHeader
             eyebrow="Who We Work With"
-            title="Doctor-to-doctor professional clinical support."
-            subtitle="CP Smart works directly with dental professionals and organizations &mdash; never with patients."
+            title="Doctor-to-Doctor Professional Clinical Support."
+            subtitle="CP Smart works directly with dental professionals & organizations &mdash; never with patients."
             align="center"
             className="mb-10"
           />

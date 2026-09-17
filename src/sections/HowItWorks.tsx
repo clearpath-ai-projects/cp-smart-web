@@ -15,7 +15,7 @@ const STEPS = [
     number: '01',
     icon: FileUp,
     title: 'Submit Patient Records',
-    description: "The treating dentist submits the patient's clinical information, scans and relevant diagnostic records.",
+    description: "The treating dentist submits the patient's clinical information, scans & relevant diagnostic records.",
   },
   {
     number: '02',
@@ -27,13 +27,13 @@ const STEPS = [
     number: '03',
     icon: ClipboardList,
     title: 'Diagnostic & Treatment Plan',
-    description: 'A patient-specific orthodontic assessment and proposed clinical treatment plan is prepared.',
+    description: 'A patient-specific orthodontic assessment & proposed clinical treatment plan is prepared.',
   },
   {
     number: '04',
     icon: Eye,
     title: 'Doctor Review',
-    description: 'The treating dentist reviews the proposed treatment digitally and can request modifications.',
+    description: 'The treating dentist reviews the proposed treatment digitally & can request modifications.',
   },
   {
     number: '05',
@@ -56,7 +56,7 @@ export default function HowItWorks() {
     <section id="how-it-works" className="section scroll-mt-[72px] bg-white">
       <div className="container-page">
         <SectionHeader
-          eyebrow="How It Works"
+          
           title="How It Works"
           subtitle="From case submission to clinically approved treatment planning."
           align="center"

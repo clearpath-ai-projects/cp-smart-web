@@ -12,7 +12,7 @@ const kpiFeatures = [
   {
     icon: Stethoscope,
     title: 'Clinical Expertise',
-    description: 'Expert orthodontic analysis provided by qualified dental specialists.',
+    description: 'Expert Orthodontic Analysis provided by Qualified Dental Specialists.',
   },
   {
     icon: Scan,
@@ -22,12 +22,12 @@ const kpiFeatures = [
   {
     icon: UserCheck,
     title: 'Doctor Review',
-    description: 'Seamless portal for dentists to review, edit, and confirm treatment plans.',
+    description: 'Seamless portal for dentists to review, request modifications & confirm treatment plans.',
   },
   {
     icon: HeartPulse,
     title: 'Patient-Specific Planning',
-    description: 'Customized diagnostic plans tailored to unique patient anatomy.',
+    description: 'Customized Diagnostic Plans tailored to unique patient anatomy.',
   },
 ]
 
@@ -62,12 +62,12 @@ export default function Hero() {
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-white/90">
-              Clinical orthodontic assessment and treatment planning support
-              for dental professionals.
+              Clinical Orthodontic Assessment & Treatment Planning Support
+              for Dental Professionals.
             </p>
 
             <p className="mt-4 text-[15px] leading-relaxed text-white/75">
-              CP Smart helps dentists evaluate orthodontic cases, review
+              CP Smart's Clinical Assessment Team enables dentists to evaluate orthodontic cases, review
               diagnostic records, visualize proposed tooth movements, and
               develop clinically appropriate treatment plans.
             </p>
@@ -85,11 +85,11 @@ export default function Hero() {
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3">
               <span className="inline-flex items-center gap-2 text-[13px] font-medium text-white/80">
                 <FolderInput size={15} strokeWidth={1.75} className="text-brand-300" />
-                Structured case submission
+                Structured Case Submission
               </span>
               <span className="inline-flex items-center gap-2 text-[13px] font-medium text-white/80">
                 <KeyRound size={15} strokeWidth={1.75} className="text-brand-300" />
-                Secure doctor review access
+                Secure Doctor Review Access
               </span>
             </div>
           </div>
