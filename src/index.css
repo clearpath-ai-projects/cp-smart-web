@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #f3e6ee;
+  color: #450c2e;
+}
+
+/* Reusable, hand-authored utility layer kept intentionally small so
+   component files stay declarative and consistent. */
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.16em] uppercase text-brand-600;
+  }
+
+  .section {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+
+  .section-tight {
+    @apply py-14 sm:py-16;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-8xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white shadow-subtle hover:bg-brand-700 focus-visible:ring-brand-600;
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink/15 bg-white text-ink hover:border-brand-600/40 hover:text-brand-700 focus-visible:ring-brand-600;
+  }
+
+  .btn-ghost {
+    @apply btn text-ink/80 hover:text-brand-700;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-white shadow-card;
+  }
+
+  .fade-up {
+    animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-[14.5px] text-ink placeholder:text-ink/35 transition-colors focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20;
+  }
+
+  /* Sliding underline on the desktop nav links — animates in on
+     hover, and stays put under whichever link is active. */
+  .nav-link::after {
+    content: '';
+    @apply absolute inset-x-3.5 -bottom-0.5 h-[2px] origin-center scale-x-0 rounded-full bg-brand-600 transition-transform duration-300 ease-out;
+  }
+
+  .nav-link:hover::after,
+  .nav-link[data-active='true']::after {
+    @apply scale-x-100;
+  }
+
+  /* Photo card: consistent frame + a slow, subtle zoom on hover so
+     imagery feels alive without being distracting. */
+  .photo-card {
+    @apply relative overflow-hidden rounded-2xl;
+  }
+
+  .photo-card img {
+    @apply h-full w-full object-cover transition-transform duration-700 ease-out;
+  }
+
+  .photo-card:hover img {
+    transform: scale(1.06);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 26s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+}
