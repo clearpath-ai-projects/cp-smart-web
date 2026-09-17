@@ -33,11 +33,13 @@ export default function Platform() {
         />
 
         <RevealOnScroll>
-          <div className="card photo-card h-[360px] sm:h-[480px] lg:h-[560px]">
+          {/* Removed fixed height limits (h-[360px] etc.) to allow natural image expansion */}
+          <div className="card overflow-hidden rounded-xl border border-border shadow-xl">
             <img
               src="/images/doctor-portal-platform.png"
               alt="CP Smart doctor's portal dashboard, showing case status and quick overview"
               loading="lazy"
+              className="h-auto w-full object-contain"
             />
           </div>
         </RevealOnScroll>
