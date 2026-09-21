@@ -44,7 +44,7 @@ export default function Platform() {
           </div>
         </RevealOnScroll>
         <p className="mt-4 text-center text-[12.5px] text-ink/35">
-          Illustrative doctor portal interface. Not connected to a live platform.
+          
         </p>
 
         {/* Feature mentions — descriptive only, no login/submission functionality on this site */}

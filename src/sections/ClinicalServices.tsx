@@ -1,4 +1,4 @@
-import { FileSearch, ClipboardList, ScanEye, MessageSquareText, ArrowRight } from 'lucide-react'
+import { FileSearch, ClipboardList, ScanEye, MessageSquareText } from 'lucide-react'
 import SectionHeader from '../components/SectionHeader'
 import RevealOnScroll from '../components/RevealOnScroll'
 
@@ -26,7 +26,7 @@ const SERVICES = [
       'Planning performed & supervised by dental practitioners',
       'Treatment plans prepared for the treating dentist’s review',
     ],
-    photo: '/images/photo-service-planning.png',
+    photo: '/images/photo-service-planning.jfif',
     photoAlt: 'Clinician examining a 3D dental mesh model on a workstation monitor at a clear aligner planning station',
   },
   {
@@ -36,7 +36,7 @@ const SERVICES = [
       'Interactive visualization of proposed orthodontic tooth movements to assist the treating dentist in reviewing the proposed treatment.',
     points: [
       'Digital Visualization of proposed tooth movement',
-      'Stage-by-Stage treatment progression view',
+      'Step-by-Step treatment progression view',
       'Supports clinical review, not a standalone diagnosis tool',
     ],
     photo: '/images/photo-service-visualization.jpg',
@@ -62,7 +62,6 @@ export default function ClinicalServices() {
     <section id="clinical-services" className="scroll-mt-[72px] bg-surface-soft pt-10 sm:pt-14 pb-20 sm:pb-24">
       <div className="container-page">
         <SectionHeader
-          
           title="Clinical Services"
           subtitle="Clinical & Digital support designed around the orthodontic workflow &mdash; from diagnostic assessment to approved treatment planning."
           align="center"
@@ -112,13 +111,6 @@ export default function ClinicalServices() {
               </div>
             )
           })}
-        </div>
-
-        <div className="mt-16 text-center">
-          <a href="#how-it-works" className="btn-ghost">
-            See how a case moves through this workflow
-            <ArrowRight size={15} />
-          </a>
         </div>
       </div>
     </section>

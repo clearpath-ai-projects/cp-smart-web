@@ -5,8 +5,8 @@
  */
 const SENTENCES = [
   'Smarter Orthodontic Diagnostics.',
-  'Better Treatment Decisions.',
-  'Stronger Clinical Outcomes.',
+  'Better Clinical Outcomes',
+  'Efficient Treatment Decisions',
 ]
 
 export default function MarqueeBanner() {
