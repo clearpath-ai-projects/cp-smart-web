@@ -1,8 +1,8 @@
-# CP Smart Diagnostic Services — Website Prototype
+# CP Smart Tech Services — Website Prototype
 
-A dummy/prototype public website for **CP Smart Diagnostic Services
+A dummy/prototype public website for **CP Smart Tech Services
 (Pvt.) Ltd.** (planned domain: `CPSDS.pk`), a professional orthodontic
-diagnostic assessment and clinical treatment-planning service for
+Tech assessment and clinical treatment-planning service for
 dentists and orthodontists.
 
 This is a **single-page, purely informational marketing site** — there
@@ -16,7 +16,7 @@ connectivity.
 
 ## Positioning (read this first)
 
-CP Smart is a clinical diagnostic + treatment-planning service for **dental
+CP Smart is a clinical Tech + treatment-planning service for **dental
 professionals** — it is not an aligner manufacturer, dental lab, CAD
 outsourcing company, or a patient-facing consumer brand. Copy is written
 doctor-to-doctor, and the workflow content is careful to make clear that

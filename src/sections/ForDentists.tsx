@@ -12,7 +12,7 @@ const BENEFITS = [
   {
     icon: FolderInput,
     title: 'Structured Case Submission',
-    description: 'Submit patient records, scans and diagnostic information through a consistent, organized workflow.',
+    description: 'Submit patient records and scans information through a consistent, organized workflow.',
   },
   {
     icon: Stethoscope,
@@ -89,7 +89,7 @@ export default function ForDentists() {
       <CTASection
         eyebrow="Get Started"
         title="Ready to Work With CP Smart?"
-        subtitle="Get in touch with our clinical team to learn more about orthodontic diagnostic assessment and treatment-planning support for your practice."
+        subtitle="Get in touch with our clinical team to learn more about orthodontic assessment and treatment-planning support for your practice."
         buttons={[{ label: 'Contact Us', href: '#contact' }]}
         image="/images/photo-cta.jpg"
         imageAlt="A dentist consulting with a patient in a modern clinic"

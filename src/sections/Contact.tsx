@@ -29,7 +29,7 @@ export default function Contact() {
         <SectionHeader
           
           title="Contact Us"
-          subtitle="For dental professionals seeking clinical diagnostic and treatment-planning support."
+          subtitle="For dental professionals seeking clinical Tech and treatment-planning support."
           align="center"
           className="mb-14"
         />
@@ -41,7 +41,7 @@ export default function Contact() {
                 <h3 className="font-display text-[15px] font-semibold text-ink">Who this is for</h3>
                 <p className="mt-2 text-[14px] leading-relaxed text-ink/60">
                   Dentists, orthodontists and dental clinics seeking
-                  orthodontic diagnostic assessment and clinical
+                  orthodontic assessment and clinical
                   treatment-planning support for their patients.
                 </p>
               </div>

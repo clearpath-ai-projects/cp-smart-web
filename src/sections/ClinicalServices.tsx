@@ -5,7 +5,7 @@ import RevealOnScroll from '../components/RevealOnScroll'
 const SERVICES = [
   {
     icon: FileSearch,
-    title: 'Orthodontic Diagnostic Assessment',
+    title: 'Orthodontic Assessment',
     description:
       'Clinical assessment of patient records, scans, photographs, radiographs, dental conditions & orthodontic requirements.',
     points: [
@@ -63,7 +63,7 @@ export default function ClinicalServices() {
       <div className="container-page">
         <SectionHeader
           title="Clinical Services"
-          subtitle="Clinical & Digital support designed around the orthodontic workflow &mdash; from diagnostic assessment to approved treatment planning."
+          subtitle="Clinical & Digital support designed around the orthodontic workflow &mdash; from assessment to approved treatment planning."
           align="center"
           className="mb-16"
         />

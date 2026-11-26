@@ -4,7 +4,7 @@
  * together, looped) so it never stutters or resets visibly.
  */
 const SENTENCES = [
-  'Smarter Orthodontic Diagnostics.',
+  'Smarter Orthodontic Tech',
   'Better Clinical Outcomes',
   'Efficient Treatment Decisions',
 ]

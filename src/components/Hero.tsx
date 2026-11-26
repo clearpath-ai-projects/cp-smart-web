@@ -27,7 +27,7 @@ const kpiFeatures = [
   {
     icon: HeartPulse,
     title: 'Patient-Specific Planning',
-    description: 'Customized Diagnostic Plans tailored to unique patient anatomy.',
+    description: 'Customized Plans tailored to unique patient anatomy.',
   },
 ]
 
@@ -51,13 +51,13 @@ export default function Hero() {
         <div className="relative z-10 mx-auto max-w-7xl px-6 py-16 sm:px-12 lg:px-16 lg:py-24">
           <div className="max-w-xl text-white">
             <span className="eyebrow mb-3 block text-brand-200">
-              Orthodontic Diagnostic Services
+              Orthodontic Tech Services
             </span>
 
             <h1 className="font-display text-[2.5rem] font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[3.25rem]">
               Smarter Orthodontic
               <br />
-              Diagnostics.
+              Tech.
               <br className="hidden sm:block" /> Better Treatment Decisions.
             </h1>
 
@@ -68,7 +68,7 @@ export default function Hero() {
 
             <p className="mt-4 text-[15px] leading-relaxed text-white/75">
               CP Smart's Clinical Assessment Team enables dentists to evaluate orthodontic cases, review
-              diagnostic records, visualize proposed tooth movements, and
+              records, visualize proposed tooth movements, and
               develop clinically appropriate treatment plans.
             </p>
 

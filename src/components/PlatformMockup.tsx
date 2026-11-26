@@ -107,7 +107,7 @@ export default function PlatformMockup({ compact = false }: PlatformMockupProps)
         <div className="bg-white p-5 sm:p-6">
           <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-ink/40">Clinical Assessment</p>
           <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-ink/60">
-            Diagnostic review of submitted records indicates a Class II
+            Tech review of submitted records indicates a Class II
             malocclusion with mild crowding. Proposed treatment plan
             below for review by the treating dentist.
           </p>

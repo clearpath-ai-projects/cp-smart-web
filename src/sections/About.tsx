@@ -28,7 +28,7 @@ export default function About() {
               />
 
               <p className="text-[17px] leading-relaxed text-ink/70">
-                CP Smart Diagnostic Services combines dental expertise with
+                CP Smart Tech Services combines dental expertise with
                 digital technology to support dentists in orthodontic
                 diagnosis & treatment planning. Our clinical team works
                 with dental professionals to assess cases, develop

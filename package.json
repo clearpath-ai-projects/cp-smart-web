@@ -1,9 +1,9 @@
 {
-  "name": "cp-smart-diagnostic-services",
+  "name": "cp-smart-Tech-services",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Public-facing marketing website prototype for CP Smart Diagnostic Services (Pvt.) Ltd. — a clinical orthodontic diagnostic assessment and treatment-planning service for dental professionals.",
+  "description": "Public-facing marketing website prototype for CP Smart Tech Services (Pvt.) Ltd. — a clinical orthodontic Tech assessment and treatment-planning service for dental professionals.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

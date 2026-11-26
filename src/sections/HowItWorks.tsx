@@ -15,7 +15,7 @@ const STEPS = [
     number: '01',
     icon: FileUp,
     title: 'Submit Patient Records',
-    description: "The treating dentist submits the patient's clinical information, scans & relevant diagnostic records.",
+    description: "The treating dentist submits the patient's clinical information, scans & relevant records.",
   },
   {
     number: '02',
@@ -26,7 +26,7 @@ const STEPS = [
   {
     number: '03',
     icon: ClipboardList,
-    title: 'Diagnostic & Treatment Plan',
+    title: 'Treatment Plan',
     description: 'A patient-specific orthodontic assessment & proposed clinical treatment plan is prepared.',
   },
   {
@@ -99,7 +99,7 @@ export default function HowItWorks() {
                       {step.highlight && (
                         <div className="mt-4 inline-flex items-center gap-2 rounded-lg bg-brand-600/10 px-3 py-2 text-[13px] font-medium text-brand-700">
                           <ShieldCheck size={15} />
-                          CP Smart Diagnostic Services does not manufacture physical aligners.
+                          CP Smart Tech Services does not manufacture physical aligners.
                         </div>
                       )}
                     </div>

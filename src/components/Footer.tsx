@@ -23,9 +23,9 @@ export default function Footer({ onOpenPrivacyPolicy, onOpenTerms }: FooterProps
           <div className="lg:col-span-5">
             <Logo variant="light" />
             <p className="mt-5 max-w-sm text-[15px] leading-relaxed text-white/55">
-              CP Smart Diagnostic Services (Pvt.) Ltd.
+              CP Smart Tech Services (Pvt.) Ltd.
               <br />
-              Orthodontic Diagnostic &amp; Clinical Consultation Services
+              Orthodontic Tech &amp; Clinical Consultation Services
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export default function Footer({ onOpenPrivacyPolicy, onOpenTerms }: FooterProps
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-8 text-[13px] text-white/40 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} CP Smart Diagnostic Services (Pvt.) Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} CP Smart Tech Services (Pvt.) Ltd. All rights reserved.
           </p>
           <p></p>
         </div>

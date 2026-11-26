@@ -2,15 +2,15 @@ const SECTIONS = [
   {
     heading: '1. Introduction & Scope',
     body: [
-      'CP Smart Diagnostic Service operates a dental diagnostic service in Pakistan. This Privacy Policy explains what personal and health-related information we collect from patients and visitors, how we use and protect it, and the choices available to you.',
-      'By visiting the Website, booking an appointment, or using any of our diagnostic services, you consent to the collection and use of your information as described in this Policy.',
+      'CP Smart Tech Service operates a dental Tech service in Pakistan. This Privacy Policy explains what personal and health-related information we collect from patients and visitors, how we use and protect it, and the choices available to you.',
+      'By visiting the Website, booking an appointment, or using any of our Tech services, you consent to the collection and use of your information as described in this Policy.',
     ],
   },
   {
     heading: '2. Information We Collect',
     body: [
       'Contact & identity details — name, phone number, & email address.',
-      'Health & dental information — symptoms, dental/medical history, diagnostic images, scans, test results, and any other health data generated or shared in connection with your diagnostic visit.',
+      'Health & dental information — symptoms, dental/medical history, Tech images, scans, test results, and any other health data generated or shared in connection with your Tech visit.',
       'Website usage data — IP address, browser/device type, pages visited, and cookies (see Section 7).',
       'We collect this information directly from you (forms, calls, WhatsApp, in-clinic visits) and, where relevant, from referring healthcare providers with your consent.',
     ],
@@ -19,7 +19,7 @@ const SECTIONS = [
     heading: '3. How We Use Your Information',
     body: [
       'We use the information we collect to schedule, confirm, and manage appointments.',
-      'We also use it to perform dental diagnostic services and prepare, interpret, and deliver reports and results.',
+      'We also use it to perform dental Tech services and prepare, interpret, and deliver reports and results.',
       'Additionally, information helps us improve our Website, services, and patient experience, as well as comply with applicable Pakistani laws, regulations, and lawful requests from authorities.',
       'We do not use your health information for automated decision-making that produces legal or similarly significant effects without human involvement.',
     ],
@@ -42,7 +42,7 @@ const SECTIONS = [
   {
     heading: '6. Data Retention',
     body: [
-      'We retain patient records, diagnostic reports, and related health information for as long as necessary to provide ongoing care, meet standard medical record-keeping practice in Pakistan, and satisfy legal, tax, or regulatory requirements.',
+      'We retain patient records, Tech reports, and related health information for as long as necessary to provide ongoing care, meet standard medical record-keeping practice in Pakistan, and satisfy legal, tax, or regulatory requirements.',
     ],
   },
   {
