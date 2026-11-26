@@ -8,7 +8,7 @@ export default function Logo({ variant = 'dark', className = '' }: LogoProps) {
   const subtextColor = variant === 'dark' ? 'text-ink/70' : 'text-white/70'
 
   return (
-    <a href="/" className="inline-block">
+    <a href="/" className={`inline-block ${className}`}>
       <div className="inline-flex flex-col">
         {/* Top line */}
         <div className="flex items-center text-[28px] font-extrabold tracking-tight leading-none">
